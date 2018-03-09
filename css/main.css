@@ -97,16 +97,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
 
 
-
-
-
-
-
-
-
-
+.nameLine,
+.popLine {
+    font-family: sans-serif;
+    font-size: 1em;
+}
 
 
 
